@@ -1,4 +1,4 @@
 # wipro-repo
 This is my second Git Repository.
 <br>
-Name - Neeraj Patel
+Name - Neeraj Patel (Wipro)
