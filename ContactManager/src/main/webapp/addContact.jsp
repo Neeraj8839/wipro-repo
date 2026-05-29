@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Contact</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+}
+
+.container{
+    width:400px;
+    margin:auto;
+    margin-top:50px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px gray;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:15px;
+    background:green;
+    color:white;
+    border:none;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h2>Add Contact</h2>
+
+<form action="addContact" method="post">
+
+    <input type="text"
+           name="name"
+           placeholder="Enter Name"
+           required>
+
+    <input type="text"
+           name="phone"
+           placeholder="Enter Phone"
+           required>
+
+    <input type="email"
+           name="email"
+           placeholder="Enter Email"
+           required>
+
+    <button type="submit">
+        Save Contact
+    </button>
+
+</form>
+
+</div>
+
+</body>
+</html>
