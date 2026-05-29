@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Manager Bean -->
+    <bean id="manager"
+          class="com.configurationstyle.Manager"/>
+
+    <!-- Delegate Bean -->
+    <bean id="delegateXMLBased"
+          class="com.configurationstyle.DelegateXMLBased">
+
+        <property name="allocator" ref="manager"/>
+
+    </bean>
+
+</beans>
+
+
+

@@ -1,0 +1,136 @@
+
+Introduction to Spring Framework
+
+Spring Framework is a Java framework used to develop enterprise applications.
+
+It makes Java development:
+
+easy, fast, and loosely coupled
+
+Spring is mainly used for:
+
+Web Applications
+Enterprise Applications
+REST APIs
+Microservices
+Daily Life Example
+
+Imagine a restaurant 🍽️
+
+Chef = Business Logic
+Waiter = Connection between customer and chef
+Customer = User
+
+Spring works like a waiter that connects everything automatically.
+
+Benefits of Spring Framework
+1. Loose Coupling
+
+Objects are not tightly dependent on each other.
+
+Daily Example
+
+A TV remote can work with different TVs.
+
+2. Dependency Injection
+
+Spring automatically provides required objects.
+
+Daily Example
+
+Someone gives you a water bottle before you ask for it.
+
+3. Easy Testing
+
+Testing becomes simple.
+
+Daily Example
+
+Checking one part of a machine separately.
+
+4. Lightweight
+
+Uses less memory and resources.
+
+Daily Example
+
+A bicycle is lighter than a truck.
+
+5. Modular
+
+You can use only required modules.
+
+Daily Example
+
+Choosing only the pizza toppings you want 
+
+Spring Architecture
+
+Spring architecture is divided into different modules.
+
+Main Modules
+Module	Purpose
+Core Container	Manages beans
+Spring Context	Provides application context
+Spring AOP	Security and logging
+Spring JDBC	Database connectivity
+Spring MVC	Web application development
+Spring ORM	Hibernate integration
+Simple Architecture Flow
+User → Spring Container → Beans → Application
+Types of Containers in Spring
+1. BeanFactory
+Basic container
+Uses lazy loading
+Creates beans only when needed
+Daily Example
+
+Food is prepared only after a customer places an order.
+
+2. ApplicationContext
+Advanced container
+Uses eager loading
+Creates beans at startup
+Daily Example
+
+A school bus is ready before students arrive.
+
+Ways of Dependency Injection
+1. Constructor Injection
+
+Dependency is injected through constructor.
+
+Example
+public Student(Book book)
+Daily Example
+
+A bike comes with the engine already attached.
+
+2. Setter Injection
+
+Dependency is injected using setter method.
+
+Example
+setBook(Book book)
+Daily Example
+
+Inserting a SIM card into a phone later.
+
+3. Field Injection
+
+Dependency is injected directly into the field.
+
+Example
+@Autowired
+private Book book;
+Daily Example
+
+Putting books directly into a school bag.
+
+Important Point
+
+Main concept of Spring:
+
+IOC (Inversion of Control)
+
+It means object creation and management are handled by the Spring container instead of the programmer.
