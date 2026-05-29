@@ -1,0 +1,10 @@
+package com.company.model;
+
+public class Cart {
+	
+	private int cartId;
+	private int userId;
+	private int productId;
+	private int quantity;
+
+}
