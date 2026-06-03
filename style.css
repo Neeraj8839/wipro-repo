@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+
+.custom-navbar{
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    padding: 15px;
+}
+
+/* Hero Section */
+
+.hero-section{
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1")
+    center/cover no-repeat;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.hero-content{
+    position: relative;
+    color: white;
+    z-index: 1;
+    animation: fadeIn 2s ease;
+}
+
+/* Animation */
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Feature Cards */
+
+.feature-card{
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.4s;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+.feature-card:hover{
+    transform: translateY(-10px);
+}
+
+.feature-icon{
+    font-size: 50px;
+    color: #4e54c8;
+    margin-bottom: 15px;
+}
+
+/* Table */
+
+table{
+    background: white;
+}
+
+table tbody tr:hover{
+    background-color: #f1f1f1;
+    transition: 0.3s;
+}
+
+/* Footer */
+
+.footer{
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .hero-content h1{
+        font-size: 2rem;
+    }
+
+    .hero-content p{
+        font-size: 1rem;
+    }
+
+}

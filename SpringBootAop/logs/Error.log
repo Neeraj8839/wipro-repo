@@ -1,0 +1,9 @@
+2026-05-15 [main] INFO  c.company.SpringBootAopApplication - Starting SpringBootAopApplication using Java 21.0.1 with PID 12991 (/Users/neerajpatel/IdeaProjects/SpringBootAop/target/classes started by neerajpatel in /Users/neerajpatel/IdeaProjects/SpringBootAop)
+2026-05-15 [main] INFO  c.company.SpringBootAopApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-15 [main] INFO  c.company.SpringBootAopApplication - Started SpringBootAopApplication in 4.004 seconds (process running for 5.136)
+2026-05-15 [main] INFO  com.company.aop.LoggingAop - Transaction support Started
+2026-05-15 [main] INFO  com.company.aop.LoggingAop - Transaction committed
+2026-05-15 [main] INFO  com.company.aop.LoggingAop - Transaction support Started
+2026-05-15 [main] INFO  com.company.aop.LoggingAop - Transaction committed
+2026-05-15 [main] INFO  com.company.aop.LoggingAop - Transaction support Started
+2026-05-15 [main] ERROR com.company.aop.LoggingAop - Transaction Rolled Back : / by zero
