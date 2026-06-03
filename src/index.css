@@ -54,7 +54,9 @@
 body {
   margin: 0;
 }
-
+body {
+  margin: 0;
+}
 #root {
   width: 100%;
   min-height: 100vh;
@@ -151,6 +153,7 @@ code {
 .font-display {
   font-family: Inter, sans-serif;
 }
+
 
 .font-mono-accent {
   font-family: monospace;
